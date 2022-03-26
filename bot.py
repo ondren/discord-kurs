@@ -3,7 +3,7 @@ from discord.ext import commands
 import requests
 import time
 
-bot = commands.Bot(command_prefix='!')
+bot = discord.Client()
 
 @bot.event
 async def on_ready():
