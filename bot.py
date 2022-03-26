@@ -7,6 +7,7 @@ bot = discord.Client()
 
 @bot.event
 async def on_ready():
+    print('Ready')
     while True:
         channel = bot.get_channel(953819623122415619)
         client_id = 'w44itmy3785pbc175e9z7wchlpl9y1'
