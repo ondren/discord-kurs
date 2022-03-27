@@ -12,7 +12,7 @@ async def on_ready():
         channel = bot.get_channel(953819623122415619)
         client_id = 'w44itmy3785pbc175e9z7wchlpl9y1'
         client_secret = '26p62wuzp2fn785tciu1h0qtarotle'
-        streamer_name = 'buster'
+        streamer_name = 'NikeTheHuman'
 
         body = {
             'client_id': client_id,
