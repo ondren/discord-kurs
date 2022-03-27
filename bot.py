@@ -38,4 +38,4 @@ async def on_ready():
             time.sleep(300)
 
 
-bot.run('OTUzODE5ODQ2Nzc5NDY5ODI0.YjKH9A.2x2Sawf6IEe6G3HUObeLrNQHvqM')
+bot.run('OTUzODE5ODQ2Nzc5NDY5ODI0.YjKH9A.v2oag__DZQtPnVQUcl_QhOy30cE')
