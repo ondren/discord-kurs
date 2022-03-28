@@ -32,7 +32,7 @@ async def on_ready():
         stream_data = stream.json();
 
         if len(stream_data['data']) == 1:
-            await channel.send(f' @everyone {streamer_name} <----— THIS PERSON IS STREAMING :nerd: https://www.twitch.tv/nikethehuman')
+            await channel.send(f'<----— THIS PERSON IS STREAMING :nerd: https://www.twitch.tv/nikethehuman @everyone')
             time.sleep(25200)
         else:
             print('I am alive')
